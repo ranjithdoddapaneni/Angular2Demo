@@ -11,6 +11,7 @@ var platform_browser_1 = require("@angular/platform-browser");
 var app_component_1 = require("./app.component");
 var Employee_Component_1 = require("./EmployeeComponent/Employee.Component");
 var EmployeesList_Component_1 = require("./EmployeeComponent/EmployeesList.Component");
+var LifeCycle_1 = require("./LifeCycle/LifeCycle");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -19,7 +20,7 @@ var AppModule = (function () {
 AppModule = __decorate([
     core_1.NgModule({
         imports: [platform_browser_1.BrowserModule],
-        declarations: [app_component_1.AppComponent, Employee_Component_1.EmployeeComponent, EmployeesList_Component_1.EmployeeList],
+        declarations: [app_component_1.AppComponent, Employee_Component_1.EmployeeComponent, EmployeesList_Component_1.EmployeeList, LifeCycle_1.LifeCycle],
         bootstrap: [app_component_1.AppComponent]
     })
 ], AppModule);
