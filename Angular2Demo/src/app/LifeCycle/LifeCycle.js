@@ -13,6 +13,12 @@ var core_1 = require("@angular/core");
 var LifeCycle = (function () {
     function LifeCycle() {
     }
+    LifeCycle.prototype.ngOnChanges = function (changes) {
+        for (var item in changes) {
+            var i = changes[item];
+            alert(JSON.stringify(i.currentValue));
+        }
+    };
     return LifeCycle;
 }());
 __decorate([
