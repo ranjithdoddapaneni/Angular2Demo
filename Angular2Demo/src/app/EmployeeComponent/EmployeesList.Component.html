@@ -1,0 +1,19 @@
+﻿<table>
+    <thead>
+        <tr>
+            <th>Code</th>
+            <th>Name</th>
+            <th>Salary</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngIf="!employees || employees.length==0">
+            <td colspan="3">No Data Found</td>
+        </tr>
+        <tr *ngFor="let employee of employees">
+            <td>{{employee.empNumber | uppercase}} </td>
+            <td>{{employee.name | uppercase}}</td>
+            <td>{{employee.salary |currency:'USD':true}}</td>
+        </tr>
+    </tbody>
+</table>
