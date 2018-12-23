@@ -14,4 +14,4 @@ export class LifeCycle implements OnChanges {
         }
     }
 
-}
+} 

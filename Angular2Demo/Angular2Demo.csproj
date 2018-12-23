@@ -75,6 +75,7 @@
     <Content Include="src\app\EmployeeComponent\Emp.Component.css" />
     <Content Include="src\app\EmployeeComponent\Employee.Component.html" />
     <Content Include="src\app\EmployeeComponent\EmployeesList.Component.html" />
+    <Content Include="src\app\Services\GithubService.Com.html" />
     <Content Include="src\main.js" />
     <Content Include="src\tsconfig.json" />
     <Content Include="tslint.json" />
@@ -108,6 +109,8 @@
     <TypeScriptCompile Include="src\app\EmployeeComponent\Employee.Component.ts" />
     <TypeScriptCompile Include="src\app\EmployeeComponent\EmployeesList.Component.ts" />
     <TypeScriptCompile Include="src\app\LifeCycle\LifeCycle.ts" />
+    <TypeScriptCompile Include="src\app\Services\Github.Component.ts" />
+    <TypeScriptCompile Include="src\app\Services\GithubService.Component.ts" />
     <TypeScriptCompile Include="src\main.ts" />
   </ItemGroup>
   <PropertyGroup>
